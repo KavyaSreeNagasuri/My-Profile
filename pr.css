@@ -1,0 +1,51 @@
+#nbar{
+    position: relative;
+    background-color: #ddb275;
+    height: 20px;
+    padding-top: 10px;
+    line-height: 10px;
+    margin-top: 0px;
+}
+#ex1{
+    float: left;
+    height: 15px;
+    text-indent: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: rgb(55, 43, 226);
+}
+.c1{
+    padding-right: 15px;
+    text-decoration:none;
+}
+a:visited{
+    color: rgb(55, 43, 226);
+}
+a:hover{
+    color:pink;
+}
+#content1{
+    position: relative;
+    align-self: center;
+    padding-top: 10%;
+    /* line-height: 100%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: red;   
+    /* padding-top: 50px; */
+}
+#footer{
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    width: 99%;
+    align-self: center;
+    color: brown;
+}
+#ex2{
+    /* display: inline-block; */
+    float: right;
+    height:15px;
+    text-indent: 15px;
+    margin-right: 5%;
+}
