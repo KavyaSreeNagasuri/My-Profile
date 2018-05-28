@@ -1,13 +1,27 @@
+/* .bimage{
+    background-image: url("images/bg1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+body {
+    background-image: url("images/bg2.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+ }
 #nbar{
     position: relative;
-    background-color: #ddb275;
+    background-color: #ffff;
     height: 20px;
     padding-top: 10px;
     line-height: 10px;
-    margin-top: 0px;
+    margin: 0px 0px 0px 0px;
+    /* margin-top: 0px; */
 }
 #ex1{
-    float: left;
+    float:left;
     height: 15px;
     text-indent: 15px;
     letter-spacing: 1px;
@@ -15,6 +29,7 @@
     color: rgb(55, 43, 226);
 }
 .c1{
+    float: left;
     padding-right: 15px;
     text-decoration:none;
 }
@@ -22,7 +37,7 @@ a:visited{
     color: rgb(55, 43, 226);
 }
 a:hover{
-    color:pink;
+    color:rgb(192, 255, 247);
 }
 #content1{
     position: relative;
@@ -40,7 +55,7 @@ a:hover{
     height: 50px;
     width: 99%;
     align-self: center;
-    color: brown;
+    color: rgb(79, 42, 165);
 }
 #ex2{
     /* display: inline-block; */
